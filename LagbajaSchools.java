@@ -94,7 +94,8 @@ public class LagbajaSchools {
             }
             if (maxScore > overallHighestScore) {
                 overallHighestScore = maxScore;
-		overallHighestScoreStudent = maxStudent;
+
+                overallHighestScoreStudent = maxStudent;
                 overallHighestScoreSubject = index;
             }
         }
@@ -130,7 +131,4 @@ public class LagbajaSchools {
         System.out.println("===============================================================");
     }
 }
-
-
-
 
