@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class LagbajaSchools {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+	System.out.println("WELCOME TO JOHNSON HIGH SCHOOL");
         System.out.print("How many students do you have? ");
         int numStudents = scanner.nextInt();
         System.out.print("How many subjects do they offer? ");
